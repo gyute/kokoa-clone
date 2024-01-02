@@ -1,0 +1,8 @@
+# mac hidden files
+.DS_Store
+
+#
+*.tmp
+*.png
+*.jpeg
+*.psd
