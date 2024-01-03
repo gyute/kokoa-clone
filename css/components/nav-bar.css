@@ -24,17 +24,7 @@
   bottom: 15px;
 }
 
-.nav__ellipsis-more {
-  background-color: tomato;
-  width: 7px;
-  height: 7px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  color: white;
-  font-weight: 600;
-  position: absolute;
+a .nav__ellipsis-more-dot {
   left: 30px;
   bottom: 25px;
 }
