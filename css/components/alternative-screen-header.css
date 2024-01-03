@@ -23,3 +23,7 @@
 .alt-header__title {
   font-size: 28px;
 }
+
+.alt-header__column span:last-child {
+  margin-left: 20px;
+}
