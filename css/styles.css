@@ -25,6 +25,12 @@ body {
   font-family: -apple-system, "Open Sans", Ubuntu, sans-serif;
 }
 
+@media screen and (max-height: 750px) {
+  body {
+    height: 750px;
+  }
+}
+
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
