@@ -39,6 +39,7 @@
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+  color: black;
 }
 
 #login-form input::placeholder {
