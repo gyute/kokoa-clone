@@ -120,7 +120,33 @@
   }
 }
 
+@keyframes vibration {
+  0% {
+    transform: none;
+  }
+  20% {
+    color: tomato;
+    transform: rotate(20deg) scale(1.2);
+  }
+  40% {
+    color: tomato;
+    transform: rotate(-20deg) scale(1.1);
+  }
+  60% {
+    color: tomato;
+    transform: rotate(20deg) scale(1.1);
+  }
+  80% {
+    color: tomato;
+    transform: rotate(-20deg) scale(1.1);
+  }
+  100% {
+    color: tomato;
+    transform: none;
+  }
+}
+
 .open-post__heart-count:hover i {
-  will-change: transform;
-  animation: heartBeat 1s linear infinite;
+  will-change: transform, color;
+  animation: vibration 0.4s linear forwards;
 }
